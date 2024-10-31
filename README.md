@@ -2,52 +2,74 @@
 Martinez Industries
 
 2. Sport & Fitness:
-Sebastian " #77 " Martinez
-Maryland Adult Football Association
-Washingtonian Fitness Commission
-Maryland Football Club
-Maryland Gamers
-EChat Nutrition
-10K Football
+\\Management:
 Martinez Sport & Fitness
+\\White Label:
+Washingtonian Fitness Commission
 Washingtonian Fitness
 Washingtonian Fitness Group
 General Sports & Fitness
-Fraternal Order of River Football
 General Athletics
+\\Athletes:
+Sebastian " #77 " Martinez
+\\Leagues:
+Maryland Adult Football Association
+\\Clubs\Teams:
+Maryland Football Club
 Maryland FC Strikers
+\\Challenge Team:
+10K Football
+\\eSports:
+Maryland Gamers
+\\Nutrition:
+EChat Nutrition
+\\Fitness:
 Solstice Fitness
-Soccer Upgrades
+\\Agency:
 Baseball Upgrades
+Soccer Upgrades
 
-
+\\Real Estate:
+Fraternal Order of River Football
 
 3. Engineering & Technology:
-Sector Technologies Patch
-Shapeshifters Engineering
-Sector Technologies HLL
+\\Engineering Design Management:
 Arturo Engineering
+\\White Label:
+Shapeshifters Engineering
+Engineered Solutions
+Applied Ontology
+Ontology Process
+Nanotech America
+\\Electrical Engineering:
 Arturo Technologies
-Sector Technologies
-Lease Data
+\\Web Development:
 Score Engineering
-General Network Systems
 Batter Street
+\\Network Engineering:
+General Network Systems
+Lease Data (DHCP)
+\\Programming Languages:
+Sector Technologies Patch
+Sector Technologies HLL
+Sector Technologies
 Sector Technologies Assembly Languages
 Sector Technologies ML
 Sector Technologies HDL
-Anthropic Designs
+Sector Tech
+Circuit Feedback
+\\Cloud Computing:
+Amazon Performance
+\\Solar Energy:
 Fast Solar Energy Group
 Solar Team & Club
-Amazon Performance
-Engineered Solutions
-Applied Ontology
+\\Biology:
+Anthropic Designs
+\\Aerospace:
 Industrial Space Commission
-Nanotech America
-Sector Tech
+\\Data Management:
 Transnational Data Recovery
-Circuit Feedback
-Ontology Process
+
 
 
 4. Education:
