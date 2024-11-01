@@ -60,12 +60,21 @@ header p {
     margin-top: 15px;
 }
 
+/* Container for buttons on the index page */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Card style for all group buttons */
 .group-card {
     background-color: #00509e;
     color: #ffffff;
     padding: 15px;
     margin: 5px;
-    width: 220px;
     text-align: center;
     border-radius: 8px;
     text-decoration: none;
@@ -73,6 +82,8 @@ header p {
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1 1 calc(50% - 20px); /* Half width on larger screens */
+    max-width: 220px; /* Limit button size on wider screens */
 }
 
 .group-card:hover {
@@ -80,4 +91,12 @@ header p {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     background-color: #ffdd57;
     color: #001f3f;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .group-card {
+        flex: 1 1 100%; /* Full width on smaller screens */
+        max-width: 100%;
+    }
 }
