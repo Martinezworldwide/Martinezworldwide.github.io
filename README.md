@@ -40,9 +40,13 @@ Shapeshifters Engineering
 Engineered Solutions
 Applied Ontology
 Ontology Process
-Nanotech America
-\\Electrical Engineering:
+
+
+
+\\Electrical Engineering Management:
 Arturo Technologies
+\\White Label:
+Nanotech America
 \\Web Development:
 Score Engineering
 Batter Street
@@ -60,6 +64,8 @@ Sector Tech
 Circuit Feedback
 \\Cloud Computing:
 Amazon Performance
+
+
 \\Solar Energy:
 Fast Solar Energy Group
 Solar Team & Club
