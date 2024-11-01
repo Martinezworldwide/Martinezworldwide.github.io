@@ -4,17 +4,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #001f3f; /* Navy background */
-    color: #ffffff; /* White text for contrast */
+    background-color: #001f3f;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    justify-content: flex-start;
 }
 
 header {
-    background-color: #003366; /* Darker navy for header */
+    background-color: #003366;
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -28,31 +27,35 @@ header h1 {
 
 header p {
     font-size: 1.2em;
-    color: #d1d1d1; /* Light grey for subtitle text */
+    color: #d1d1d1;
 }
 
-.button-container {
+.button-container, .content-section {
+    margin: 20px;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 }
 
-.nav-button {
-    background-color: #00509e; /* Slightly lighter navy for button */
+.group-card {
+    background-color: #00509e;
     color: #ffffff;
-    padding: 15px 30px;
-    margin: 10px;
-    border: none;
-    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 220px;
+    text-align: center;
+    border-radius: 12px;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
-    text-align: center;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.nav-button:hover {
-    background-color: #ffdd57; /* Yellow hover color */
-    color: #001f3f; /* Navy text on hover */
+.group-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #ffdd57;
+    color: #001f3f;
 }
