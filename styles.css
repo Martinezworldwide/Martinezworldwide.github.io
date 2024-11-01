@@ -59,4 +59,33 @@ header p {
     background-color: #ffdd57;
     color: #001f3f;
 }
+/* Container for each section to align buttons in rows */
+.sub-section {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between buttons */
+    justify-content: flex-start; /* Align buttons to the start of each row */
+}
 
+.group-card {
+    display: inline-block;
+    background-color: #00509e;
+    color: #ffffff;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.group-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #ffdd57;
+    color: #001f3f;
+}
