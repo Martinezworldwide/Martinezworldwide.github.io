@@ -37,8 +37,8 @@ header p {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .group-card {
+    display: inline-block;
     background-color: #00509e;
     color: #ffffff;
     padding: 20px;
@@ -59,3 +59,4 @@ header p {
     background-color: #ffdd57;
     color: #001f3f;
 }
+
