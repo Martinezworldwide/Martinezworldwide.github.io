@@ -30,45 +30,15 @@ header p {
     color: #d1d1d1;
 }
 
-.content-section {
-    margin: 20px;
-    width: 80%;
-    max-width: 800px; /* Center content and keep sections aligned */
-}
-
-.content-section h2 {
-    font-size: 1.8em;
-    color: #ffdd57;
-    border-bottom: 2px solid #ffdd57;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    text-align: left; /* Align titles consistently */
-}
-
-.sub-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.sub-section h3 {
-    font-size: 1.3em;
-    color: #ffa500;
-    width: 100%; /* Ensures alignment across rows */
-    margin-top: 15px;
-}
-
 /* Container for buttons on the index page */
 .button-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
     padding: 20px;
-    width: 100%;
+    width: 90%;
     max-width: 800px; /* Center content on larger screens */
-    justify-items: center;
+    margin: 0 auto;
 }
 
 /* Card style for all group buttons */
@@ -84,7 +54,6 @@ header p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%; /* Take full width of grid cell */
-    max-width: 220px; /* Limit button size on larger screens */
 }
 
 .group-card:hover {
@@ -92,4 +61,11 @@ header p {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     background-color: #ffdd57;
     color: #001f3f;
+}
+
+/* Responsive adjustments for very small screens */
+@media (max-width: 600px) {
+    .button-container {
+        grid-template-columns: 1fr; /* Single column layout on very small screens */
+    }
 }
